@@ -11,6 +11,7 @@ public interface CommentRepository {
     List<Comment> findByParentId(String parentId);
 
     void delete(String commentId);
-    
-    List<Comment> findByEntityId(String entityId); // e.g., post/article ID
+
+    List<Comment> findByEntityId(String entityId);
+
 }
